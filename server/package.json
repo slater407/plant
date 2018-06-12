@@ -9,6 +9,8 @@
   "author": "Joe Slater",
   "license": "ISC",
   "dependencies": {
-
+    "bean-serial": "^0.3.0",
+    "ble-bean": "^2.1.1",
+    "serialport": "^6.2.0"
   }
 }
