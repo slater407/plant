@@ -4,8 +4,9 @@ const BeanSerial = require('bean-serial').SerialPort;
 const Readline = SerialPort.parsers.Readline;
 const parser = new Readline();
 
+// Trappy
 const rpiUUID = '987bf35834c6';
-const macUUID = 'efff1bd8f4314c71b34b1e9547b6ab22'
+const macUUID = 'efff1bd8f4314c71b34b1e9547b6ab22';
 
 var port;
 var options = {
@@ -26,5 +27,4 @@ Bean.discoverByUuid(macUUID, (bean) => {
       bean.disconnect();
 		});
 	});
-
 });
